@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Umov</id>
+    <version>$version$</version>
+    <title>Umov</title>
+    <authors>Friedrich von Never</authors>
+    <owners>Friedrich von Never</owners>
+    <licenseUrl>https://github.com/ForNeVeR/Umov#licensing</licenseUrl>
+    <projectUrl>https://github.com/ForNeVeR/Umov</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Umov is a .NET FDTD modeling library.</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright © 2016—2017 Friedrich von Never friedrich@fornever.me</copyright>
+    <tags>fdtd simulation</tags>
+    <dependencies>
+        <dependency id="System.Windows.Controls.DataVisualization.Toolkit" version="[4.0.0,)" />
+    </dependencies>
+  </metadata>
+</package>

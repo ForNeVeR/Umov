@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Umov", "Umov\Umov.fsproj", "{CF700F02-52F7-4FD0-896C-6FB1FB85BF85}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Umov.Test", "Umov.Test\Umov.Test.fsproj", "{F10DFD18-C751-4C44-8449-9D5083983893}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2300B5C3-7EE4-4D14-BEEE-830922898705}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		MIT.md = MIT.md
+		paket.dependencies = paket.dependencies
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umov.Gui", "Umov.Gui\Umov.Gui.csproj", "{26B9B795-5A0E-402A-A080-EC6398B6CA4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{0866BA77-68D7-4199-9C45-A5583CE4ACD1}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\Install.ps1 = Scripts\Install.ps1
+		Scripts\Package.ps1 = Scripts\Package.ps1
+		Scripts\Push-Package.ps1 = Scripts\Push-Package.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF700F02-52F7-4FD0-896C-6FB1FB85BF85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF700F02-52F7-4FD0-896C-6FB1FB85BF85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF700F02-52F7-4FD0-896C-6FB1FB85BF85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF700F02-52F7-4FD0-896C-6FB1FB85BF85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10DFD18-C751-4C44-8449-9D5083983893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10DFD18-C751-4C44-8449-9D5083983893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10DFD18-C751-4C44-8449-9D5083983893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10DFD18-C751-4C44-8449-9D5083983893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26B9B795-5A0E-402A-A080-EC6398B6CA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B9B795-5A0E-402A-A080-EC6398B6CA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B9B795-5A0E-402A-A080-EC6398B6CA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B9B795-5A0E-402A-A080-EC6398B6CA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0866BA77-68D7-4199-9C45-A5583CE4ACD1} = {2300B5C3-7EE4-4D14-BEEE-830922898705}
+	EndGlobalSection
+EndGlobal
